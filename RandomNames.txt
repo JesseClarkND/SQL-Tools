@@ -1,0 +1,115 @@
+# Create table
+CREATE TABLE `a_test` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `first` varchar(128) DEFAULT NULL,
+  `last` varchar(128) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
+
+# Insert Data
+INSERT INTO a_test (FIRST, LAST) VALUES ('Asia', 'Reed');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Annika', 'Sanford');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Paisley', 'Branch');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Marlon', 'Lester');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Johnathan', 'Flowers');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Adyson', 'Rosales');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Camila', 'House');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Alisha', 'Burnett');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Xzavier', 'Berry');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Ayana', 'Robinson');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Elvis', 'Cline');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Ryker', 'Greer');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Laci', 'Fritz');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Rhianna', 'Kirk');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Reagan', 'Martinez');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Angelina', 'Bowen');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Darnell', 'Hinton');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Ashlynn', 'Soto');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Eleanor', 'Massey');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Luis', 'Middleton');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Bella', 'Valenzuela');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Nancy', 'Maddox');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Cailyn', 'Harper');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Brittany', 'Small');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Alisa', 'Rivas');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Elliana', 'Sutton');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Leyla', 'Hunter');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Mariela', 'Ellis');
+INSERT INTO a_test (FIRST, LAST) VALUES ('August', 'Hatfield');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Elisa', 'Sawyer');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Declan', 'Whitehead');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Nathanael', 'Arias');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Romeo', 'Pham');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Shamar', 'Anthony');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Cherish', 'Nicholson');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Jamie', 'Poole');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Karen', 'Benson');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Noelle', 'Fernandez');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Julio', 'Raymond');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Hailie', 'Peterson');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Jaidyn', 'Horne');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Madden', 'Sparks');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Kendall', 'Nash');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Callie', 'Underwood');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Oliver', 'Watson');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Logan', 'Barrett');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Cristofer', 'Livingston');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Kaylie', 'Curry');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Roland', 'Fleming');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Jaydan', 'Conner');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Liberty', 'Miranda');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Hugh', 'Rose');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Jocelyn', 'Juarez');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Siena', 'Eaton');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Kian', 'Khan');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Dangelo', 'Wilkerson');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Lillie', 'Bradshaw');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Sierra', 'Molina');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Cortez', 'Hodges');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Layla', 'Chung');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Halle', 'Gibbs');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Dawson', 'Ho');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Alessandra', 'Mckee');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Kara', 'Proctor');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Sam', 'Singleton');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Anton', 'Allison');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Branden', 'Hull');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Sarahi', 'Harris');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Joaquin', 'Leon');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Damien', 'Woodward');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Eli', 'Monroe');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Darius', 'Delacruz');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Rocco', 'Gonzales');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Olivia', 'Shaffer');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Emely', 'Brown');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Marc', 'Fitzpatrick');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Camren', 'Haley');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Priscilla', 'Nielsen');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Rudy', 'Christensen');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Alanna', 'Glenn');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Gwendolyn', 'Owens');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Preston', 'Bell');
+INSERT INTO a_test (FIRST, LAST) VALUES ('London', 'Odonnell');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Jabari', 'Frazier');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Caitlin', 'Ortiz');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Mariam', 'Bradley');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Ayanna', 'Beck');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Raiden', 'Robles');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Lindsey', 'Jefferson');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Azaria', 'Schmitt');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Amir', 'Whitney');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Santos', 'Barnes');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Dayami', 'Fischer');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Howard', 'Nelson');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Jonah', 'Mcdaniel');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Damon', 'Dixon');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Salvador', 'Henson');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Zackary', 'Wilkins');
+INSERT INTO a_test (FIRST, LAST) VALUES ('Kristian', 'Griffin');
+INSERT INTO a_test (FIRST, LAST) VALUES ('India', 'Franklin');
+
+#Update target table
+UPDATE target 
+SET first_name= (SELECT a_test.first FROM a_test ORDER BY RAND() LIMIT 1), 
+last_name = (SELECT a_test.last FROM a_test ORDER BY RAND() LIMIT 1)
+WHERE target.status = 'S'
