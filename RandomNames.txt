@@ -113,5 +113,5 @@ INSERT INTO a_test (FIRST, LAST, email) VALUES ('India','Franklin','kourai@iclou
 UPDATE target 
 SET first_name= (SELECT a_test.first FROM a_test ORDER BY RAND() LIMIT 1), 
 last_name = (SELECT a_test.last FROM a_test ORDER BY RAND() LIMIT 1),
-email = (SELECT a_test.email FROM a_test ORDER BY RAND() LIMIT 1),
+email = (SELECT a_test.email FROM a_test ORDER BY RAND() LIMIT 1)
 WHERE target.status = 'S'
